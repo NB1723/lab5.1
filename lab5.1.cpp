@@ -9,6 +9,7 @@ int main()
 	cout<<"q=";cin>>q;
 	double d=(k(1+p*q,q*q)+((k(p,p*p))*(k(p,p*p)))/(1+k(p*q+q*q,p)));
 	cout<<"d="<<d<<endl;
+	system("pause");
 	return 0;
 }
 double k(const double x, const double y)

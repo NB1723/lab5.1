@@ -1,20 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PR5.1", "PR5.1.vcxproj", "{98E417E0-96AD-4EBE-AD07-C59FA31EC9F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest5.1", "..\UnitTest5.1\UnitTest5.1.vcxproj", "{BD70945A-323A-4A1F-9984-DB5596FA33FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{98E417E0-96AD-4EBE-AD07-C59FA31EC9F3}.Debug|Win32.ActiveCfg = Debug|Win32
 		{98E417E0-96AD-4EBE-AD07-C59FA31EC9F3}.Debug|Win32.Build.0 = Debug|Win32
+		{98E417E0-96AD-4EBE-AD07-C59FA31EC9F3}.Debug|x64.ActiveCfg = Debug|Win32
 		{98E417E0-96AD-4EBE-AD07-C59FA31EC9F3}.Release|Win32.ActiveCfg = Release|Win32
 		{98E417E0-96AD-4EBE-AD07-C59FA31EC9F3}.Release|Win32.Build.0 = Release|Win32
+		{98E417E0-96AD-4EBE-AD07-C59FA31EC9F3}.Release|x64.ActiveCfg = Release|Win32
+		{BD70945A-323A-4A1F-9984-DB5596FA33FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD70945A-323A-4A1F-9984-DB5596FA33FA}.Debug|Win32.Build.0 = Debug|Win32
+		{BD70945A-323A-4A1F-9984-DB5596FA33FA}.Debug|x64.ActiveCfg = Debug|x64
+		{BD70945A-323A-4A1F-9984-DB5596FA33FA}.Debug|x64.Build.0 = Debug|x64
+		{BD70945A-323A-4A1F-9984-DB5596FA33FA}.Release|Win32.ActiveCfg = Release|Win32
+		{BD70945A-323A-4A1F-9984-DB5596FA33FA}.Release|Win32.Build.0 = Release|Win32
+		{BD70945A-323A-4A1F-9984-DB5596FA33FA}.Release|x64.ActiveCfg = Release|x64
+		{BD70945A-323A-4A1F-9984-DB5596FA33FA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EF2E112-541B-4161-8090-C646D3928071}
 	EndGlobalSection
 EndGlobal
